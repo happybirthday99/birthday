@@ -4,16 +4,16 @@ var config = {
     // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
         "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "亲爱的儿子":"/imgs/5f5e49laeddl9.jpg", // 同上...
+        "亲爱的儿子":"./imgs/5f5e49laeddl9.jpg", // 同上...
         "今天是你的生日",
         "这是我们认识的",
         "第9个月了哦",
         "去年的生日",
         "没能陪你过",
         "今年必须陪你过",
-        "爸爸生日快乐":"/imgs/5f5e4a0a6cf0c.jpg",
-        "祝你越长越美":"/imgs/5f5e4af62ba06.jpg",
-        "祝你天天开心":"/imgs/5f5e4b72aa4dc.jpg",
+        "爸爸生日快乐":"./imgs/5f5e4a0a6cf0c.jpg",
+        "祝你越长越美":"./imgs/5f5e4af62ba06.jpg",
+        "祝你天天开心":"./imgs/5f5e4b72aa4dc.jpg",
     ],
     /**
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -31,11 +31,11 @@ var config = {
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
         turn_on: "开始",
-        play: "音乐",
+        play: "音乐 起",
         bannar_coming: "颜色",
         balloons_flying: "好像少点东西",
         cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
+        light_candle: "点蜡烛？",
         wish_message: "生日快乐",
         story: "儿子，请你过目下面几句话",
     }
